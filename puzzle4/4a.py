@@ -15,6 +15,4 @@ for line in inputStrings:
             matches = matches + 1
     if(matches >0):
         score = score + (2**(matches-1))
-
-
 print(score)
